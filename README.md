@@ -30,4 +30,3 @@ The system includes the following entities:
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
-- **Hosting:** Configured for server-side hosting
