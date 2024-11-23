@@ -1,0 +1,152 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('login-bg.png');  
+    background-size: cover;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+   
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #f0f0f0;
+    
+}
+
+button {
+    width: 100%;
+    background-color: #ff9900; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+.error-message {
+    color: #ff6666;
+    font-size: 12px;
+}
+
+.login_check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login_check a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login_check a:hover {
+    text-decoration: underline;
+}
+
+.login_forgot {
+    color: white;
+    text-decoration: underline;
+}
+
+.login_forgot:hover {
+    color: #ffbc00;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+}
+
+.login a:hover {
+    color: #ffbc00;
+}
+
+  
+.register-login {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.register-login a {
+    color: #ffbc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-login a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+    .login {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .login_title {
+        font-size: 1.5rem;
+    }
+
+    .register-login {
+        font-size: 16px;
+    }
+   
+}
